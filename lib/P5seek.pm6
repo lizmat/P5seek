@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module P5seek:ver<0.0.2>:auth<cpan:ELIZABETH>;
+unit module P5seek:ver<0.0.3>:auth<cpan:ELIZABETH>;
 
 proto sub seek(|) is export {*}
 multi sub seek(IO::Handle:D $handle, Int() $pos, Int() $whence --> True) {
@@ -16,7 +16,7 @@ sub term:<SEEK_END>(--> 2) is export { }
 
 =head1 NAME
 
-P5seek - Implement Perl 5's seek() built-in
+P5seek - Implement Perl's seek() built-in
 
 =head1 SYNOPSIS
 
@@ -28,10 +28,10 @@ P5seek - Implement Perl 5's seek() built-in
 
 =head1 DESCRIPTION
 
-This module tries to mimic the behaviour of the C<seek> function of Perl 5
+This module tries to mimic the behaviour of the C<seek> function of Perl
 as closely as possible.
 
-=head1 ORIGINAL PERL 5 DOCUMENTATION
+=head1 ORIGINAL PERL DOCUMENTATION
 
     seek FILEHANDLE,POSITION,WHENCE
             Sets FILEHANDLE's position, just like the "fseek" call of "stdio".
@@ -96,9 +96,9 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/P5seek.svg?branch=master)](https://travis-ci.org/lizmat/P5seek)
-
 NAME
 ====
 
-P5seek - Implement Perl 5's seek() built-in
+P5seek - Implement Perl's seek() built-in
 
 SYNOPSIS
 ========
@@ -17,10 +15,10 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module tries to mimic the behaviour of the `seek` function of Perl 5 as closely as possible.
+This module tries to mimic the behaviour of the `seek` function of Perl as closely as possible.
 
-ORIGINAL PERL 5 DOCUMENTATION
-=============================
+ORIGINAL PERL DOCUMENTATION
+===========================
 
     seek FILEHANDLE,POSITION,WHENCE
             Sets FILEHANDLE's position, just like the "fseek" call of "stdio".
@@ -86,9 +84,9 @@ Source can be located at: https://github.com/lizmat/P5seek . Comments and Pull R
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
