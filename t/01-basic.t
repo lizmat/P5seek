@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 use P5seek;
 
@@ -16,4 +16,4 @@ for 0, 1, 2, SEEK_SET, SEEK_CUR, SEEK_END -> $whence {
     ok seek( $handle, 42, $whence), "did a seek with $whence work out?";
 }
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

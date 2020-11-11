@@ -1,6 +1,6 @@
-use v6.c;
+use v6.*;
 
-unit module P5seek:ver<0.0.3>:auth<cpan:ELIZABETH>;
+unit module P5seek:ver<0.0.4>:auth<cpan:ELIZABETH>;
 
 proto sub seek(|) is export {*}
 multi sub seek(IO::Handle:D $handle, Int() $pos, Int() $whence --> True) {
@@ -16,7 +16,7 @@ sub term:<SEEK_END>(--> 2) is export { }
 
 =head1 NAME
 
-P5seek - Implement Perl's seek() built-in
+Raku port of Perl's seek() built-in
 
 =head1 SYNOPSIS
 
@@ -28,8 +28,8 @@ P5seek - Implement Perl's seek() built-in
 
 =head1 DESCRIPTION
 
-This module tries to mimic the behaviour of the C<seek> function of Perl
-as closely as possible.
+This module tries to mimic the behaviour of Perl's C<seek> built-in as
+closely as possible in the Raku Programming Language.
 
 =head1 ORIGINAL PERL DOCUMENTATION
 
@@ -96,10 +96,12 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
+
+# vim: expandtab shiftwidth=4

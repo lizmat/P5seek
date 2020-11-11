@@ -2,6 +2,11 @@ Revision history for P5seek
 
 {{$NEXT}}
 
+0.0.4  2020-11-11T22:31:23+01:00
+    - Change name of distribution
+    - Force to highest possible Raku version
+    - Update copyright year
+
 0.0.3  2019-11-10T19:51:58+01:00
     - Changed Perl 6 to Raku, and Perl 5 to Perl
 
