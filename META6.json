@@ -1,5 +1,5 @@
 {
-  "auth": "cpan:ELIZABETH",
+  "auth": "zef:lizmat",
   "authors": [
     "Elizabeth Mattijsen"
   ],
@@ -12,7 +12,7 @@
   "name": "P5seek",
   "perl": "6.c",
   "provides": {
-    "P5seek": "lib/P5seek.pm6"
+    "P5seek": "lib/P5seek.rakumod"
   },
   "resources": [
   ],
@@ -23,5 +23,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }

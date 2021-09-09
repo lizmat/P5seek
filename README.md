@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/P5seek/workflows/test/badge.svg)](https://github.com/lizmat/P5seek/actions)
+
 NAME
 ====
 
@@ -77,14 +79,14 @@ For convenience, the terms `SEEK_SET`, `SEEK_CUR` and `SEEK_END` are also export
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/P5seek . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
